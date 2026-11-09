@@ -921,3 +921,48 @@ textarea:focus-visible, [tabindex]:focus-visible {
   a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #555; word-break: break-all; }
   .project:hover, .post:hover { transform: none; }
 }
+
+/* =========================================================
+   ABDULLAH AFLAL — PREMIUM PORTFOLIO THEME
+   ========================================================= */
+
+/* Light mode — warm ivory & bronze */
+:root {
+  --bg: #F7F3EC;
+  --bg-subtle: #EDE6DC;
+  --card: #FFFCF7;
+
+  --text: #252522;
+  --muted: #716B62;
+  --border: #DED5C9;
+
+  --accent: #A67C52;
+  --accent-2: #D1AD83;
+  --link: #A67C52;
+  --highlight: #A67C52;
+  --on-accent: #FFFFFF;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+
+  --shadow-sm: 0 2px 5px rgba(50, 38, 25, 0.04);
+  --shadow-md: 0 8px 24px rgba(50, 38, 25, 0.06);
+  --shadow-lg: 0 20px 45px rgba(50, 38, 25, 0.10);
+}
+
+/* Dark mode — charcoal & bronze */
+:root[data-theme="dark"] {
+  --bg: #191917;
+  --bg-subtle: #22221F;
+  --card: #262622;
+
+  --text: #F3EEE6;
+  --muted: #B5AA9C;
+  --border: #39362F;
+
+  --accent: #D1AD83;
+  --accent-2: #E5C8A5;
+  --link: #D1AD83;
+  --highlight: #D1AD83;
+  --on-accent: #191917;
+}
