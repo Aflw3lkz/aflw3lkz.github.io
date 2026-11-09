@@ -50,10 +50,10 @@ const SITE = {
      box on the website. Want fully custom colours? Open css/styles.css
      and edit the variables at the very top — the README shows you how. */
   theme: {
-    palette: "slate",        // 👉 EDIT — colour: "slate" "forest" "sunset" "violet" "rose" "ocean" "mono"
-    style: "soft",           // 👉 EDIT — the "look": "soft" (rounded, default) or "flat" (squared/editorial)
-    defaultMode: "auto",     // "auto" follows the visitor's device · or force "light" / "dark"
-    font: "system",          // "system" (fast, no download) or a Google Font name — see README
+    palette: "mono",        // 👉 EDIT — colour: "slate" "forest" "sunset" "violet" "rose" "ocean" "mono"
+    style: "flat",           // 👉 EDIT — the "look": "soft" (rounded, default) or "flat" (squared/editorial)
+    defaultMode: "light",     // "auto" follows the visitor's device · or force "light" / "dark"
+    font: "inter",          // "system" (fast, no download) or a Google Font name — see README
   },
 
   /* ===================================================================
@@ -85,10 +85,10 @@ const SITE = {
      Fill these in once your site is online. The url is the address
      people will visit (you get it from GitHub Pages — see the README). */
   site: {
-    url: "https://christian-y-wu.github.io/portfolio-starter-kit/",   // 👉 EDIT — your live web address
-    title: "Alex Doe — Personal Portfolio",              // 👉 EDIT — shows in the browser tab & Google
+    url: "https://aflw3lkz.github.io/",   // 👉 EDIT — your live web address
+    title: "Abdullah Aflal — Creative Portfolio",              // 👉 EDIT — shows in the browser tab & Google
     description:                                          // 👉 EDIT — 1 sentence Google shows under your title
-      "Welcome to my personal portfolio — my projects, my story, and how to get in touch.",
+      "Social Media & Digital Marketing Specialist creating premium visual identities, social media content, and digital experiences.",
     ogImage: "assets/img/og-image.svg",   // 👉 EDIT — the picture shown when your link is shared (1200×630)
     locale: "en",                          // language code, e.g. "en", "pt", "da"
   },
@@ -107,13 +107,13 @@ const SITE = {
      ===== HERO  (the big first screen — your headline moment) ========
      =================================================================== */
   hero: {
-    statusText: "Available for new opportunities",  // 👉 EDIT — e.g. "Based in your city" or "Open to freelance"
+    statusText: "Available for new opportunities in Qatar",  // 👉 EDIT — e.g. "Based in your city" or "Open to freelance"
     statusOpen: true,                  // true = green dot, false = grey dot
-    eyebrow: "Hi, my name is",         // the small line above your name
-    name: "Alex Doe",                  // 👉 EDIT — your full name
-    nameHighlight: "Doe",              // part of your name to underline in the accent colour ("" for none)
+    eyebrow: "Social Media & Digital Marketing",         // the small line above your name
+    name: "Abdullah Aflal",                  // 👉 EDIT — your full name
+    nameHighlight: "Aflal",              // part of your name to underline in the accent colour ("" for none)
     tagline:                           // 👉 EDIT — one or two sentences about you
-      "Welcome to my corner of the web. I love creating things, learning new skills, and sharing the work I'm proud of. Have a look around.",
+      "I combine creative design, strategic thinking, and digital marketing to build meaningful brand experiences. Specialising in premium visual communication and social media content.",
     typewriter: false,                 // OPTIONAL typing animation on the name (off under reduced-motion)
 
     // The two buttons under your tagline. The "href" jumps to a section.
