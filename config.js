@@ -107,30 +107,22 @@ const SITE = {
      ===== HERO  (the big first screen — your headline moment) ========
      =================================================================== */
   hero: {
-    statusText: "Available for new opportunities in Qatar",  // 👉 EDIT — e.g. "Based in your city" or "Open to freelance"
-    statusOpen: true,                  // true = green dot, false = grey dot
-    eyebrow: "GRAPHIC DESIGNER · SOCIAL MEDIA MANAGER",         // the small line above your name
-    name: "Abdullah Aflal",                  // 👉 EDIT — your full name
-    nameHighlight: "Aflal",              // part of your name to underline in the accent colour ("" for none)
-    tagline: "Creating impactful visuals and strategic social media experiences that help brands stand out, connect, and grow.",
-    typewriter: false,                 // OPTIONAL typing animation on the name (off under reduced-motion)
-
-    // The two buttons under your tagline. The "href" jumps to a section.
-    primaryCta:   { label: "View my work", href: "#projects" },  // 👉 EDIT
-    secondaryCta: { label: "About me",     href: "#about" },     // 👉 EDIT
-
-    // "Download CV" button → put your real PDF at assets/cv.pdf (keep the name).
-    // Not got a CV? Set show: false to hide the button.
+    statusText: "Available for opportunities in Qatar & UAE",
+    statusOpen: true,
+    eyebrow: "GRAPHIC DESIGN · ARABIC TYPOGRAPHY · DIGITAL MARKETING",
+    name: "Abdullah Aflal",
+    nameHighlight: "Aflal",
+    tagline: "I turn ideas into bold visuals and thoughtful brand experiences. Design, Arabic typography, and social media creative for brands that want to stand out.",
+    typewriter: false,
+    primaryCta: { label: "Explore selected work", href: "#projects" },
+    secondaryCta: { label: "About me", href: "#about" },
     cv: { show: true, label: "Download CV", file: "assets/cv.pdf" },
-
-    // The "At a glance" card on the right. Each row scrolls to a section.
-    // icon names: user · briefcase · graduation · wrench · folder · pen · map-pin · mail
-    glanceTitle: "At a glance",
+    glanceTitle: "Creative practice",
     glance: [
-      { icon: "map-pin",   label: "Based in",   value: "Your City",   href: "#about" },      // 👉 EDIT
-      { icon: "user",      label: "About",      value: "Who I am",    href: "#about" },      // 👉 EDIT
-      { icon: "briefcase", label: "Experience", value: "My journey",  href: "#experience" }, // 👉 EDIT
-      { icon: "folder",    label: "Projects",   value: "See my work", href: "#projects" },   // 👉 EDIT
+      { icon: "pen", label: "Speciality", value: "Graphic design", href: "#skills" },
+      { icon: "globe", label: "Focus", value: "Arabic & social creative", href: "#projects" },
+      { icon: "briefcase", label: "Experience", value: "3+ years", href: "#experience" },
+      { icon: "map-pin", label: "Based in", value: "Sri Lanka · Qatar-ready", href: "#contact" },
     ],
   },
 
