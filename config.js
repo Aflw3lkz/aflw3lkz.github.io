@@ -143,19 +143,21 @@ const SITE = {
        • To REORDER sections:  move a whole line up or down
        • To RENAME a nav link: change the "nav" text
      The "id" must stay the same (the code matches content to it). */
-  sections: [
-    { id: "about",        nav: "About",        show: true  },
-    { id: "now",          nav: "Now",          show: true  },  // safe to delete
-    { id: "stats",        nav: "Highlights",   show: false },  // safe to delete · "by the numbers" — set true to show
-    { id: "experience",   nav: "Experience",   show: true  },
-    { id: "education",    nav: "Education",     show: true  },
-    { id: "skills",       nav: "Skills",       show: true  },
-    { id: "projects",     nav: "Projects",     show: true  },
-    { id: "gallery",      nav: "Gallery",      show: true  },  // safe to delete · photo grid
-    { id: "writing",      nav: "Writing",      show: true  },  // safe to delete
-    { id: "testimonials", nav: "References",   show: true  },  // safe to delete
-    { id: "contact",      nav: "Contact",      show: true  },
-  ],
+  
+sections: [
+  { id: "about",        nav: "About",        show: true  },
+  { id: "now",          nav: "Now",          show: false },
+  { id: "stats",        nav: "Highlights",   show: false },
+  { id: "experience",   nav: "Experience",   show: true  },
+  { id: "education",    nav: "Education",    show: true  },
+  { id: "skills",       nav: "Skills",       show: true  },
+  { id: "projects",     nav: "Portfolio",    show: true  },
+  { id: "gallery",      nav: "Gallery",       show: false },
+  { id: "writing",      nav: "Writing",       show: false },
+  { id: "testimonials", nav: "References",    show: false },
+  { id: "contact",      nav: "Contact",        show: true  },
+],
+
 
   /* ===================================================================
      ===== ABOUT ======================================================
@@ -436,23 +438,17 @@ projects: {
   /* ===================================================================
      ===== CONTACT ====================================================
      =================================================================== */
-  contact: {
-    intro: "Say hello",
-    heading: "Let's connect",                       // 👉 EDIT
-    text: "I'm always happy to chat — about work, ideas, or just to say hi. Drop me a line and I'll get back to you.", // 👉 EDIT
-    email: "hello@example.com",                     // 👉 EDIT — your email address
-    emailButtonLabel: "Send me an email",
+  
+contact: {
+  intro: "Let's work together",
+  heading: "Have a project in mind?",
+  text: "I'm open to graphic design, social media, and digital marketing opportunities in Qatar. Feel free to get in touch.",
+  email: "abdullahaflalaa@gmail.com",
+  emailButtonLabel: "Contact me",
+  form: false,
+  formAction: "https://formspree.io/f/your-id",
+},
 
-    // OPTIONAL contact form (an add-on). It is OFF by default because it
-    // needs a free third-party service to receive messages.
-    // To turn it on:
-    //   1. Make a free form at https://formspree.io  (or use Netlify Forms)
-    //   2. They give you an address like  https://formspree.io/f/abcwxyz
-    //   3. Paste it into formAction below and set form: true
-    // See the README "Turn on the contact form" recipe for details.
-    form: false,                                    // 👉 EDIT — true to show the form
-    formAction: "https://formspree.io/f/your-id",   // 👉 EDIT — your Formspree (or other) endpoint
-  },
 
   /* ===================================================================
      ===== FOOTER =====================================================
@@ -476,13 +472,13 @@ projects: {
        github · linkedin · x (twitter) · instagram · dribbble · mastodon
        bluesky · youtube · codepen · globe (website) · mail (email)
      For "mail", write the address with mailto:  — see below. */
-  social: [
-    { icon: "github",   label: "GitHub",   url: "https://github.com/your-username" },   // 👉 EDIT
-    { icon: "linkedin", label: "LinkedIn", url: "https://linkedin.com/in/your-name" },  // 👉 EDIT
-    { icon: "instagram",label: "Instagram",url: "https://instagram.com/your-handle" },  // 👉 EDIT
-    { icon: "globe",    label: "Website",  url: "" },                                    // 👉 EDIT (add a url to show)
-    { icon: "mail",     label: "Email",    url: "mailto:hello@example.com" },            // 👉 EDIT
-  ],
+  
+social: [
+  { icon: "github", label: "GitHub", url: "https://github.com/Aflw3lkz" },
+  { icon: "instagram", label: "Instagram", url: "https://instagram.com/afl_w3lkz" },
+  { icon: "mail", label: "Email", url: "mailto:abdullahaflalaa@gmail.com" },
+  { icon: "linkedin", label: "linkedin", url: "https://www.linkedin.com/in/afljr10" },
+],
 
 };
 
