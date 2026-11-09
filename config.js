@@ -97,7 +97,7 @@ const SITE = {
      ===== NAVBAR  (the bar pinned to the top) ========================
      =================================================================== */
   nav: {
-    brand: "Alex Doe",       // 👉 EDIT — your name or logo text (top-left)
+    brand: "Abdullah Aflal",       // 👉 EDIT — your name or logo text (top-left)
     showThemeToggle: true,   // the light/dark switch
     showDotRail: true,       // the little dots on the right that show which section you're in (set false to hide)
     commandPalette: true,    // the quick search (press Ctrl/⌘ + K or "/") — jump anywhere, switch theme, copy email
@@ -109,11 +109,10 @@ const SITE = {
   hero: {
     statusText: "Available for new opportunities in Qatar",  // 👉 EDIT — e.g. "Based in your city" or "Open to freelance"
     statusOpen: true,                  // true = green dot, false = grey dot
-    eyebrow: "Social Media & Digital Marketing",         // the small line above your name
+    eyebrow: "GRAPHIC DESIGNER · SOCIAL MEDIA MANAGER",         // the small line above your name
     name: "Abdullah Aflal",                  // 👉 EDIT — your full name
     nameHighlight: "Aflal",              // part of your name to underline in the accent colour ("" for none)
-    tagline:                           // 👉 EDIT — one or two sentences about you
-      "I combine creative design, strategic thinking, and digital marketing to build meaningful brand experiences. Specialising in premium visual communication and social media content.",
+    tagline: "Creating impactful visuals and strategic social media experiences that help brands stand out, connect, and grow.",
     typewriter: false,                 // OPTIONAL typing animation on the name (off under reduced-motion)
 
     // The two buttons under your tagline. The "href" jumps to a section.
