@@ -64,7 +64,7 @@ const SITE = {
      show: false to remove it for good. (Visitors can also click ✕ to
      hide it in their own browser.) */
   guide: {
-    show: true,              // 👉 EDIT — set to false when you're done setting up
+    show: false,              // 👉 EDIT — set to false when you're done setting up
   },
 
   /* ===================================================================
