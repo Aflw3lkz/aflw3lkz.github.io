@@ -53,7 +53,7 @@ const SITE = {
     palette: "mono",        // 👉 EDIT — colour: "slate" "forest" "sunset" "violet" "rose" "ocean" "mono"
     style: "flat",           // 👉 EDIT — the "look": "soft" (rounded, default) or "flat" (squared/editorial)
     defaultMode: "light",     // "auto" follows the visitor's device · or force "light" / "dark"
-    font: "inter",          // "system" (fast, no download) or a Google Font name — see README
+    font: "Manrope",          // "system" (fast, no download) or a Google Font name — see README
   },
 
   /* ===================================================================
