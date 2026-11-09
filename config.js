@@ -453,16 +453,16 @@ contact: {
   /* ===================================================================
      ===== FOOTER =====================================================
      =================================================================== */
-  footer: {
-    tagline: "Thanks for stopping by.",     // 👉 EDIT
-    // A small link in the footer — e.g. a friendly nudge to your GitHub
-    // repo so visitors can see the code or give it a ⭐. Set url to "" to hide.
-    repo: {
-      label: "View the code on GitHub",     // 👉 EDIT
-      url: "https://github.com/your-username/your-repo",  // 👉 EDIT — your repo (or "" to hide)
-    },
-    showCredit: true,   // the small "Built with the Starter portfolio template" line — set false to remove
+  
+footer: {
+  tagline: "Design with intention. Create with purpose.",
+  repo: {
+    label: "GitHub",
+    url: "https://github.com/Aflw3lkz/aflw3lkz.github.io",
   },
+  showCredit: false,
+},
+
 
   /* ===================================================================
      ===== SOCIAL LINKS  (used in the hero, contact, and footer) ======
