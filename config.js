@@ -161,34 +161,29 @@ const SITE = {
      ===== ABOUT ======================================================
      =================================================================== */
   about: {
-    intro: "A little about me",                 // the short line under the section title
-    photo: "assets/img/portrait.svg",           // 👉 EDIT — your photo (square works best, ~600×600)
-    photoAlt: "A photo of Alex Doe",            // 👉 EDIT — describe the photo (for screen readers)
-    // Each item in this list becomes a paragraph. Write a few genuine
-    // sentences about yourself. Add or remove paragraphs freely.
+    intro: "Creative thinking meets digital strategy",
+    photo: "assets/img/portrait.svg",
+    photoAlt: "Abdullah Aflal — Social Media & Digital Marketing Specialist",
+
     paragraphs: [
-      "Hi, I'm Alex! I'm a curious person who loves learning new things, working on creative projects, and spending time with good people.",
-      "I care about doing thoughtful work and leaving things a little better than I found them. Away from the desk you'll usually find me reading, outdoors, or planning a small adventure.",
-      "This is my little corner of the internet — thanks for stopping by.",
+      "I'm a Social Media & Digital Marketing Specialist with experience in creative design, content development, and digital marketing. I enjoy combining visual storytelling with strategic thinking to create meaningful brand experiences.",
+      "My creative background includes graphic design, Arabic typography, brand communication, and video editing. I focus on creating polished, intentional visuals rather than relying on generic, AI-generated graphics.",
+      "Alongside my professional experience, I'm pursuing a BSc (Hons) in Multimedia Technology at Kingston University. I'm continuously developing my creative and marketing skills while exploring new opportunities in Qatar.",
     ],
-    interests: ["Learning", "Travel", "Photography", "Music", "Reading", "Volunteering"], // 👉 EDIT — your tag chips
-    // Optional quick facts. Delete a line to hide it, or set quickFacts: [] to hide all.
+    interests: ["Graphic Design","Arabic Typography","Digital Marketing","Brand Identity","Video Editing","Creative Direction"],
     quickFacts: [
-      { label: "Location",  value: "Your City, Country" },  // 👉 EDIT
-      { label: "Pronouns",  value: "they/them" },           // 👉 EDIT (or delete this line)
-      { label: "Languages", value: "English" },             // 👉 EDIT
-      { label: "Email",     value: "hello@example.com" },   // 👉 EDIT
+      { label: "Location",  value: "Sri Lanka" },
+      { label: "Career Focus",  value: "Qatar" },
+      { label: "Languages", value: "English & Arabic" },
+      { label: "Education",     value: "BSc (Hons) Multimedia Technology" },
     ],
   },
 
-  /* ===================================================================
-     ===== NOW  (what you're up to right now) — safe to delete ========
-     ===================================================================
-     A friendly "currently" list. icon names: wrench · pen · folder · user */
+
   now: {
     intro: "What I'm up to right now",
     items: [
-      { icon: "folder", text: "Working on a project I'm genuinely excited about." }, // 👉 EDIT
+      { icon: "folder", text: "Working on a project I'm genuinely excited about." },
       { icon: "pen",    text: "Learning a new skill, a little bit every day." },
       { icon: "user",   text: "Hoping to meet more people who care about their craft." },
     ],
@@ -222,79 +217,136 @@ const SITE = {
        dates  · any text, e.g. "2022 — Present"
        logo   · OPTIONAL small image path, or "" for none
        bullets· 1–3 short lines about what you did (a list) */
-  experience: {
-    intro: "Where I've spent my time",
-    items: [
-      {
-        title: "Project Coordinator",                 // 👉 EDIT
-        org: "Evergreen Studio",                      // 👉 EDIT
-        dates: "2022 — Present",                      // 👉 EDIT
-        logo: "",
-        bullets: [
-          "Helped plan and run projects from first idea to finished result.",
-          "Brought a calmer, simpler way of working to a busy team.",
-          "Grew the community around what we do.",
-        ],
-      },
-      {
-        title: "Team Member",
-        org: "Northwind Co.",
-        dates: "2020 — 2022",
-        logo: "",
-        bullets: [
-          "Supported the team across a bit of everything.",
-          "Learned to work closely with people in lots of different roles.",
-        ],
-      },
-      {
-        title: "Volunteer",
-        org: "Local Community Group",
-        dates: "2019 — 2020",
-        logo: "",
-        bullets: [
-          "Organised events and lent a hand wherever it was needed.",
-        ],
-      },
-    ],
-  },
+  
+
+experience: {
+  intro: "Professional experience",
+  items: [
+    {
+      title: "Freelance Graphic Design Specialist (AI Training)",
+      org: "Human Signal — United States (Remote)",
+      dates: "June 2026 — Present",
+      logo: "",
+      bullets: [
+        "Recreate designs in alternative templates while preserving original content, typography, illustrations, and design elements.",
+        "Review design outputs for errors and maintain visual accuracy and consistency.",
+        "Work independently, follow project guidelines, and manage task deadlines."
+      ],
+    },
+    {
+      title: "Digital Marketing Executive",
+      org: "Savings Supermarket — Sri Lanka",
+      dates: "June 2025 — May 2026",
+      logo: "",
+      bullets: [
+        "Managed social media accounts from content planning through publishing.",
+        "Created promotional posts and videos for offers, seasonal campaigns, and products.",
+        "Boosted pages and promotional posts using Meta Ads.",
+        "Monitored content performance and maintained consistent brand identity."
+      ],
+    },
+    {
+      title: "Graphic Designer & Social Media Coordinator",
+      org: "CDOTT Inc.",
+      dates: "January 2023 — June 2025",
+      logo: "",
+      bullets: [
+        "Designed for Gulf-region clients with a strong focus on Arabic typography.",
+        "Created Arabic content, logos, flyers, and promotional materials.",
+        "Managed client social media accounts and coordinated publishing.",
+        "Worked directly with clients and revised designs based on feedback."
+      ],
+    },
+  ],
+},
+
 
   /* ===================================================================
      ===== EDUCATION  (same timeline pattern, simpler) ================
      =================================================================== */
-  education: {
-    intro: "Where I studied",
-    items: [
-      {
-        title: "Bachelor's Degree",         // 👉 EDIT
-        org: "City University",             // 👉 EDIT
-        dates: "2015 — 2019",               // 👉 EDIT
-        logo: "",
-        bullets: ["Studied a subject I loved and made friends for life."],
-      },
-      {
-        title: "Online Certificate",
-        org: "An Online Academy",
-        dates: "2021",
-        logo: "",
-        bullets: [],
-      },
-    ],
-  },
+  
+education: {
+  intro: "Academic background",
+  items: [
+    {
+      title: "BSc (Hons) Multimedia Technology",
+      org: "Kingston University, UK",
+      dates: "September 2026 — Present",
+      logo: "",
+      bullets: [
+        "Coursework in Multimedia Technology, Visual Effects, Media Production, Digital Creativity, and Multimedia Project Development."
+      ],
+    },
+    {
+      title: "Pearson BTEC Level 5 HND in Computing — Software Engineering",
+      org: "ESOFT Metro Campus",
+      dates: "2024 — 2026",
+      logo: "",
+      bullets: [ "Web designing, Netorking, UI/UX, Database, Professional Practice, Programming."
+      ],
+    },
+    {
+      title: "International Foundation in Information Technology",
+      org: "BCAS Campus",
+      dates: "2022 — 2023",
+      logo: "",
+      bullets: [ "Java, HTML, Microsoft Office, Python, Web designing."
+      ],
+    },
+    {
+      title: "GCE Ordinary Level & Advanced Level",
+      org: "BT/Al-Hira Maha Vidyalaya",
+      dates: "2018 — 2022",
+      logo: "",
+      bullets: [],
+    },
+  ],
+},
 
-  /* ===================================================================
-     ===== SKILLS / TOOLKIT  (grouped tags) ===========================
-     ===================================================================
-     Group your skills however makes sense for YOU. Rename the groups,
-     add your own. Each group has a "name" and a list of "items". */
-  skills: {
-    intro: "What I bring to the table",
-    groups: [
-      { name: "Strengths", items: ["Communication", "Teamwork", "Problem-solving", "Organisation"] }, // 👉 EDIT
-      { name: "Tools",     items: ["Office suite", "Email & calendars", "Notion", "Canva"] },          // 👉 EDIT
-      { name: "Languages", items: ["English", "Spanish"] },                                            // 👉 EDIT
-      { name: "Interests", items: ["Design", "Writing", "Photography"] },                              // 👉 EDIT
-    ],
-  },
+
+  
+skills: {
+  intro: "Creative expertise & digital marketing capabilities",
+  groups: [
+    {
+      name: "Social Media & Marketing",
+      items: [
+        "Social Media Management",
+        "Digital Marketing",
+        "Meta Ads (Page Boosting)",
+        "Content Performance Analysis"
+      ]
+    },
+    {
+      name: "Design & Branding",
+      items: [
+        "Graphic Design",
+        "Arabic Typography & Design",
+        "Logo Design",
+        "Flyer & Promotional Design",
+        "Branding & Visual Identity"
+      ]
+    },
+    {
+      name: "Content Creation",
+      items: [
+        "Arabic Content Creation",
+        "Promotional Posts & Videos",
+        "Photography",
+        "Short-Form Video & Editing"
+      ]
+    },
+    {
+      name: "Professional Skills",
+      items: [
+        "Gulf-Region Client Work",
+        "Client Communication",
+        "Attention to Detail",
+        "Time Management"
+      ]
+    }
+  ],
+},
 
   /* ===================================================================
      ===== PROJECTS  (your work — the star of the show) ===============
@@ -307,51 +359,12 @@ const SITE = {
        tags  · a few short labels (skills, topics — your call)
        links · buttons on the card. Set a url to "" to hide that button.
                type can be "demo", "source", or any label you like. */
-  projects: {
-    // Clickable tag filters above your projects. They're built AUTOMATICALLY
-    // from the tags you use below (no list to maintain). They only appear
-    // when you have a few different tags — set to false to hide them.
-    filters: true,
-    intro: "A few things I've worked on",
-    items: [
-      {
-        featured: true,
-        title: "Community Recipe Book",                               // 👉 EDIT
-        description:                                                  // 👉 EDIT
-          "A collaborative cookbook bringing together favourite recipes from friends and neighbours. I gathered the contributions and designed the layout — my proudest little side project.",
-        image: "assets/img/project-1.svg",                           // 👉 EDIT — 1200×750 works well
-        tags: ["Design", "Community", "Writing"],                    // 👉 EDIT
-        links: [
-          { type: "demo",   label: "Take a look", url: "https://example.com" },             // 👉 EDIT
-          { type: "source", label: "Details",     url: "https://example.com" },             // 👉 EDIT
-        ],
-      },
-      {
-        featured: false,
-        title: "Personal Blog",
-        description:
-          "A small blog where I write about what I'm learning. A nice way to keep track of ideas and share them with others.",
-        image: "assets/img/project-2.svg",
-        tags: ["Writing", "Web"],
-        links: [
-          { type: "demo",   label: "Read it", url: "https://example.com" },
-          { type: "source", label: "Source",  url: "" },   // empty url = button hidden
-        ],
-      },
-      {
-        featured: false,
-        title: "Photography Series",
-        description:
-          "A year-long personal project documenting my city, one photo a week. It taught me patience and a good eye for light.",
-        image: "assets/img/project-3.svg",
-        tags: ["Photography", "Personal"],
-        links: [
-          { type: "demo",   label: "View gallery", url: "https://example.com" },
-          { type: "source", label: "Source",       url: "" },
-        ],
-      },
-    ],
-  },
+  
+projects: {
+  filters: true,
+  intro: "Selected creative work",
+  items: [],
+},
 
   /* ===================================================================
      ===== GALLERY  (a photo grid) — safe to delete ===================
