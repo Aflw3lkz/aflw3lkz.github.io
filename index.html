@@ -104,5 +104,34 @@
 	<!-- Start of bodyEnd -->
     
     <!-- End of bodyEnd -->
-</body>
+<style>
+#afl-lang{position:fixed;right:22px;bottom:22px;z-index:99999;border:1px solid rgba(0,0,0,.18);background:#f8ebcb;color:#171717;border-radius:999px;padding:10px 16px;font:600 12px/1.2 Arial,sans-serif;letter-spacing:.04em;cursor:pointer;box-shadow:0 6px 24px #0001}
+html[dir="rtl"] #afl-lang{right:auto;left:22px}
+</style>
+<button id="afl-lang" type="button" aria-label="Switch language">عربي</button>
+<script>
+(function(){
+const translations={
+"HOME":"الرئيسية","WORK":"الأعمال","ABOUT":"من أنا","SERVICE":"الخدمات","CONTACT":"تواصل",
+"Design":"التصميم","We create thoughtful digital experiences that balance creativity, clarity, and functionality.":"أصمم تجارب رقمية تجمع بين الإبداع والوضوح والوظائف.",
+"UI/UX Design":"تصميم واجهات وتجربة المستخدم","Web Design":"تصميم المواقع","Design Systems":"أنظمة التصميم","Prototyping":"النماذج الأولية","Branding":"الهوية البصرية",
+"ABDULLAH":"عبدالله","View Work":"عرض الأعمال","Selected Work — 2023/26 →":"أعمال مختارة — ٢٠٢٣/٢٦ →"
+};
+const originals=new Map();
+function toggle(){
+const ar=document.documentElement.getAttribute("dir")!=="rtl";
+document.documentElement.setAttribute("dir",ar?"rtl":"ltr");
+document.documentElement.lang=ar?"ar":"en";
+document.getElementById("afl-lang").textContent=ar?"English":"عربي";
+document.querySelectorAll("body *").forEach(el=>{
+if(el.children.length===0 && el.textContent.trim()){
+const original=originals.get(el)||el.textContent;
+if(!originals.has(el)) originals.set(el,original);
+el.textContent=ar?(translations[original.trim()]||original):original;
+}
+});
+}
+document.getElementById("afl-lang").addEventListener("click",toggle);
+})();
+</script></body>
 </html>
