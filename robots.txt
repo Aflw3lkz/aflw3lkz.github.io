@@ -1,6 +1,0 @@
-# Allow all search engines to index the whole site.
-User-agent: *
-Allow: /
-
-# 👉 EDIT — change this to your real address once your site is live.
-Sitemap: https://christian-y-wu.github.io/portfolio-starter-kit/sitemap.xml
